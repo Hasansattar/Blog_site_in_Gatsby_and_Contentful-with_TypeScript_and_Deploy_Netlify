@@ -1,16 +1,44 @@
+   
+   .main {
+     width: 100%;
+     
+   }
+   
+   .container {
+          width: 100%;
+       margin: 50px auto;
+       margin-left: 50px ;
+       box-sizing: border-box;
+       display: flex;
+       text-align: center;
+     
+       align-items: center;
 
-      .container {
-        width: 100%;
-        text-align: center;
-         
-        margin: 0 auto;
         }
        .card{
-            display: inline-block;
-            box-shadow: 0 0 10px black;
-            display: inline-block;
-            height: 400px;
-            width: 350px;
-            padding: 20px;
+         
+            box-shadow: 0 0 6px black;   
+          
+            height: 470px;
+            width: 350px; 
             margin: 10px;
+        }
+
+        h1{
+          text-align: center;
+         
+        }
+
+       .image{
+          width: 350px;
+          height: 250px;
+        }
+        h3{
+          color:#000000d9;
+        }
+        p{
+          color: #000000d9;
+        }
+        .card:hover{
+          background-color: rgba(200, 189, 191, 0.37);
         }

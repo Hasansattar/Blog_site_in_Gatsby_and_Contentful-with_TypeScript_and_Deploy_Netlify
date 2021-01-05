@@ -1,7 +1,7 @@
 import React from 'react'
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import './style.css'
-import { LineWeight } from '@material-ui/icons';
+//import { LineWeight } from '@material-ui/icons';
 
 
 export default function Blog({ pageContext }) {
